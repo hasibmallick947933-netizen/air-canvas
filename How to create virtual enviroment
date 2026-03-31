@@ -1,0 +1,22 @@
+How to create virtual enviroment
+1. Install Python 3.11
+If not installed:
+	•	Download from Python official website
+	•	During install, ✅ tick “Add to PATH”
+2. Open VS Code Terminal
+
+ Open Visual Studio Code
+ Then open terminal:
+ 3. Create virtual environment (venv311)
+
+ "python3.11 -m venv venv311"
+ or 
+ "python -m venv venv311"
+4. Activate virtual environment
+on windows: "venv311\Scripts\activate"
+on mac/linux: "source venv311/bin/activate"
+5. Install packages inside venv
+"pip install numpy"
+
+ Pro Tip
+" source venv311/bin/activate"
